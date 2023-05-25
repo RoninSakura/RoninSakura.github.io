@@ -1,0 +1,945 @@
+.background{
+    position: relative;
+    width: 1600px;
+    height: 6380px;
+    margin: 0 auto;
+}
+.head{
+    position: absolute;
+    width: 1600px;
+    height: 825px;
+    background-color: #e0e0e2;
+}
+.first-head{
+    position: absolute;
+    width: 94px;
+    height: 87px;
+    left: 84px;
+    background: url("./cat-pedigree/cat.png");
+}
+.title{
+    position: absolute;
+    width: 124px;
+    height: 72px;
+    left: 190px;
+    top: 24px;
+    font-size:50px;
+    color: #18352c;
+}
+.title a{
+    color: #18352c;
+}
+.home{
+    position: absolute;
+    width: 70px;
+    height: 34px;
+    left: 840px;
+    top: 38px;
+    font-size: 24px;
+    border: none;
+    background-color: #e0e0e2;
+    text-decoration: underline black;
+}
+.adopt{
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 929px;
+    top: 39px;
+    font-size: 24px;
+    border: none;
+    background-color: #e0e0e2;
+}
+.volunteer{
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 1030px;
+    top: 39px;
+    font-size: 24px;
+    border: none;
+    background-color: #e0e0e2;
+}
+.personal{
+    position: absolute;
+    width: 120px;
+    height: 34px;
+    left: 1124px;
+    top: 39px;
+    font-size: 24px;
+    border: none;
+    background-color: #e0e0e2;
+}
+.check{
+    position: absolute;
+    width: 180px;
+    height: 59px;
+    left: 1261px;
+    top: 26px;
+    font-size: 20px;
+    background-color: #6DA376;
+    border-radius: 30px 30px 30px 30px;
+}
+.check a{
+    color: aliceblue;
+}
+.cat{
+    position: absolute;
+    width: 1427px;
+    height: 736px;
+    left: 90px;
+    top: 90px;
+    background: url("./cat-pedigree/cat-1.png");
+}
+.publicize_first{
+    position: absolute;
+    width: 600px;
+    height: 87px;
+    left: 650px;
+    top: 160px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.publicize_second{
+    position: absolute;
+    width: 600px;
+    height: 87px;
+    left: 740px;
+    top: 274px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.understand{
+    position: absolute;
+    width: 259px;
+    height: 76px;
+    left: 1000px;
+    top: 522px;
+    font-size: 40px;
+    background-color: #8BB091;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+}
+.understand a{
+    color: white;
+}
+.service{
+    position: absolute;
+    width: 1600px;
+    height: 820px;
+    top: 825px;
+    background-color: #f8debe;
+}
+.service_first{
+    position: absolute;
+    width: 139px;
+    height: 35px;
+    top: 155px;
+    left: 246px;
+    font-size: 24px;
+}
+.service_second{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 214px;
+    top: 215px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.service_third{
+    position: absolute;
+    width: 234px;
+    height: 27px;
+    left: 215px;
+    top: 305px;
+    font-size: 18px;
+}
+.app{
+    position: absolute;
+    width: 234px;
+    height: 55px;
+    left: 216px;
+    top: 355px;
+    background-color: #8BB091;
+    border: none;
+    font-size: 32px;
+    border-radius: 10px 10px 10px 10px;
+}
+.app a{
+    color: white;
+}
+.milk_tea{
+    width: 327px;
+    height: 270px;
+    position: absolute;
+    top: 500px;
+    left: 176px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+}
+.milk_tea_head{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    left: 22px;
+    font-size: 36px;
+}
+.milk_tea_information{
+    width: 220px;
+    height: 87px;
+    position: absolute;
+    left: 22px;
+    top: 162px;
+    font-size: 20px;
+}
+.milk_tea_logo{
+    width: 117px;
+    height: 103px;
+    position: absolute;
+    left: 198px;
+    top: 450px;
+    background: url("./cat-pedigree/juice.png");
+}
+.mall{
+    width: 327px;
+    height: 270px;
+    position: absolute;
+    top: 500px;
+    left: 660px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+}
+.mall_head{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    left: 22px;
+    font-size: 36px;
+}
+.mall_information{
+    width: 240px;
+    height: 87px;
+    position: absolute;
+    left: 22px;
+    top: 162px;
+    font-size: 20px;
+}
+.mall_logo{
+    width: 117px;
+    height: 103px;
+    position: absolute;
+    left: 685px;
+    top: 450px;
+    background: url("./cat-pedigree/bag.png");
+}
+.community{
+    width: 327px;
+    height: 270px;
+    position: absolute;
+    top: 500px;
+    left: 1113px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+}
+.community_head{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    left: 22px;
+    font-size: 36px;
+}
+.community_information{
+    width: 240px;
+    height: 87px;
+    position: absolute;
+    left: 22px;
+    top: 162px;
+    font-size: 20px;
+}
+.community_logo{
+    width: 117px;
+    height: 103px;
+    position: absolute;
+    left: 1144px;
+    top: 450px;
+    background: url("./cat-pedigree/information.png");
+}
+.person{
+    width: 327px;
+    height: 270px;
+    position: absolute;
+    top: 155px;
+    left: 1113px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+}
+.person_head{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    left: 22px;
+    font-size: 36px;
+}
+.person_information{
+    width: 240px;
+    height: 87px;
+    position: absolute;
+    left: 22px;
+    top: 162px;
+    font-size: 20px;
+}
+.person_logo{
+    width: 117px;
+    height: 103px;
+    position: absolute;
+    left: 1144px;
+    top: 110px;
+    background: url("./cat-pedigree/person.png");
+}
+.census_register{
+    width: 327px;
+    height: 270px;
+    position: absolute;
+    top: 155px;
+    left: 660px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+}
+.census_register_head{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    left: 22px;
+    font-size: 36px;
+}
+.census_register_information{
+    width: 240px;
+    height: 87px;
+    position: absolute;
+    left: 22px;
+    top: 162px;
+    font-size: 20px;
+}
+.census_register_logo{
+    width: 117px;
+    height: 103px;
+    position: absolute;
+    left: 685px;
+    top: 110px;
+    background: url("./cat-pedigree/create.png");
+}
+.adopt_cat{
+    background-color: #CCCCCC;
+    width: 1600px;
+    height: 918px;
+    position: absolute;
+    top: 1644px;
+}
+.adopt_head{
+    position: absolute;
+    width: 1270px;
+    height: 126px;
+    left: 170px;
+    top: 89px;
+    background-image: linear-gradient(to right, #f8debe, #cbc5b6);
+}
+.adopt_head a{
+    width: 192px;
+    height: 68px;
+    position: absolute;
+    left: 70px;
+    top: 24px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.middle_cat{
+    width: 116px;
+    height: 77px;
+    position: absolute;
+    left: 1100px;
+    top: 24px;
+    background: url("./cat-pedigree/cat-2.png");
+}
+.domicile{
+    width: 330px;
+    height: 600px;
+    position: absolute;
+    left: 170px;
+    top: 213px;
+    background-image: linear-gradient(to bottom right, #6DA376, white);
+}
+.adopt_first{
+    width: 256px;
+    height: 90px;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+    font-size: 32px;
+}
+.adopt_second{
+    width: 298px;
+    height: 58px;
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    font-size: 20px;
+}
+.adopt_third{
+    width: 256px;
+    height: 93px;
+    position: absolute;
+    left: 30px;
+    top: 270px;
+    font-size: 32px;
+}
+.adopt_forth{
+    width: 293px;
+    height: 58px;
+    position: absolute;
+    left: 30px;
+    top: 360px;
+    font-size: 20px;
+}
+.more{
+    width: 219px;
+    height: 71px;
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    background-color: #f8debe;
+    border: none;
+    font-size: 36px;
+}
+.radius{
+    width: 38px;
+    height: 38px;
+    border-radius: 38px 38px 38px 38px;
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+.information{
+    width: 940px;
+    height: 600px;
+    position: absolute;
+    left: 500px;
+    top: 213px;
+    background-color: white;
+}
+.cat_first{
+    width: 295px;
+    height: 392px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    background: url("./cat-pedigree/cat-3.png");
+}
+.cat_second{
+    width: 295px;
+    height: 392px;
+    position: absolute;
+    left: 324px;
+    top: 30px;
+    background: url("./cat-pedigree/cat-4.png");
+}
+.cat_third{
+    width: 292px;
+    height: 392px;
+    position: absolute;
+    left: 630px;
+    top: 30px;
+    background: url("./cat-pedigree/cat-5.png");
+}
+.first_information{
+    width: 150px;
+    height: 34px;
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.second_information{
+    width: 150px;
+    height: 34px;
+    position: absolute;
+    top: 430px;
+    left: 344px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.third_information{
+    width: 150px;
+    height: 34px;
+    position: absolute;
+    top: 430px;
+    left: 660px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.alone{
+    width: 1600px;
+    height: 240px;
+    position: absolute;
+    top: 2560px;
+    background-color: #525252;
+}
+.cat_foot{
+    width: 387px;
+    height: 239px;
+    position: absolute;
+    left: 1063px;
+    background: url("./cat-pedigree/cat-6.png");
+}
+.alone a{
+    width: 693px;
+    height: 95px;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 336px;
+    top: 72px;
+}
+.guarantee{
+    width: 1600px;
+    height: 2382px;
+    background-color: #f8debe;
+    position: absolute;
+    top: 2800px;
+}
+.guarantee_first{
+    width: 91px;
+    height: 73px;
+    position: absolute;
+    top: 20px;
+    left: 758px;
+    background: url("./cat-pedigree/cat-11.png");
+}
+.guarantee_first_head{
+    width: 470px;
+    height: 70px;
+    position: absolute;
+    top: 110px;
+    left: 570px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.guarantee_first_introduce{
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 680px;
+    font-size: 25px;
+}
+.presentation_first{
+    width: 404px;
+    height: 480px;
+    position: absolute;
+    left: 172px;
+    top: 280px;
+    background-color: white;
+}
+.cog{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 149px;
+    top: 100px;
+    background: url("./cat-pedigree/cog.png");
+}
+.technology{
+    width: 189px;
+    height: 66px;
+    position: absolute;
+    top: 250px;
+    left: 122px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #244A15;
+}
+.technology_information{
+    width: 284px;
+    height: 66px;
+    position: absolute;
+    left: 96px;
+    top: 350px;
+    font-size: 24px;
+}
+.presentation_second{
+    width: 404px;
+    height: 480px;
+    position: absolute;
+    left: 610px;
+    top: 280px;
+    background-color: white;
+}
+.people{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 149px;
+    top: 100px;
+    background: url("./cat-pedigree/people.png");
+}
+.group{
+    width: 189px;
+    height: 66px;
+    position: absolute;
+    top: 250px;
+    left: 122px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #244A15;
+}
+.group_information{
+    width: 260px;
+    height: 66px;
+    position: absolute;
+    left: 96px;
+    top: 350px;
+    font-size: 24px;
+}
+.presentation_third{
+    width: 404px;
+    height: 480px;
+    position: absolute;
+    left: 1044px;
+    top: 280px;
+    background-color: white;
+}
+.car{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 149px;
+    top: 100px;
+    background: url("./cat-pedigree/car.png");
+}
+.use{
+    width: 189px;
+    height: 66px;
+    position: absolute;
+    top: 250px;
+    left: 122px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #244A15;
+}
+.use_information{
+    width: 280px;
+    height: 66px;
+    position: absolute;
+    left: 96px;
+    top: 350px;
+    font-size: 24px;
+}
+.guarantee_second{
+    width: 91px;
+    height: 73px;
+    position: absolute;
+    top: 800px;
+    left: 758px;
+    background: url("./cat-pedigree/cat-11.png");
+}
+.guarantee_second_head{
+    width: 470px;
+    height: 70px;
+    position: absolute;
+    top: 900px;
+    left: 590px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.guarantee_second_introduce{
+    width: 550px;
+    height: 30px;
+    position: absolute;
+    top: 1000px;
+    left: 550px;
+    font-size: 25px;
+}
+.consultation_first{
+    width: 556px;
+    height: 358px;
+    position: absolute;
+    left: 200px;
+    top: 1150px;
+    background: url("./cat-pedigree/cat-7.png");
+}
+.sterilization{
+    width: 493px;
+    height: 204px;
+    position: absolute;
+    top: 1510px;
+    left: 262px;
+    background-color: white;
+}
+.sterilization_information{
+    width: 355px;
+    height: 50px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #6DA376;
+}
+.detailed{
+    width: 272px;
+    height: 87px;
+    position: absolute;
+    left: 28px;
+    top: 93px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.ordinal_one{
+    width: 82px;
+    height: 82px;
+    background-color: #6DA376;
+    position: absolute;
+    left: 200px;
+    top: 1510px;
+    font-size: 40px;
+}
+.consultation_second{
+    width: 556px;
+    height: 358px;
+    position: absolute;
+    left: 850px;
+    top: 1150px;
+    background: url("./cat-pedigree/cat-8.png");
+}
+.sickness{
+    width: 493px;
+    height: 204px;
+    position: absolute;
+    top: 1510px;
+    left: 919px;
+    background-color: white;
+}
+.sickness_information{
+    width: 355px;
+    height: 50px;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #6DA376;
+}
+.dermatosis{
+    width: 380px;
+    height: 87px;
+    position: absolute;
+    left: 28px;
+    top: 93px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.ordinal_two{
+    width: 82px;
+    height: 82px;
+    background-color: #6DA376;
+    position: absolute;
+    left: 860px;
+    top: 1510px;
+    font-size: 40px;
+}
+.guarantee_third{
+    width: 91px;
+    height: 73px;
+    position: absolute;
+    top: 1760px;
+    left: 758px;
+    background: url("./cat-pedigree/cat-11.png");
+}
+.guarantee_third_head{
+    width: 470px;
+    height: 70px;
+    position: absolute;
+    top: 1860px;
+    left: 600px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.guarantee_third_introduce{
+    width: 450px;
+    height: 30px;
+    position: absolute;
+    top: 1960px;
+    left: 600px;
+    font-size: 25px;
+}
+.hospital{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    left: 307px;
+    top: 2060px;
+    background-color: white;
+}
+.hospital_logo{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 66px;
+    background: url("./cat-pedigree/add.png");
+}
+.hospital a{
+    width: 144px;
+    height: 53px;
+    position: absolute;
+    left: 60px;
+    top: 165px;
+    font-size: 36px;
+}
+.organization{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    left: 668px;
+    top: 2060px;
+    background-color: white;
+}
+.organization_logo{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 66px;
+    background: url("./cat-pedigree/time.png");
+}
+.organization a{
+    width: 144px;
+    height: 53px;
+    position: absolute;
+    left: 60px;
+    top: 165px;
+    font-size: 36px;
+}
+.school{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    left: 1029px;
+    top: 2060px;
+    background-color: white;
+}
+.school_logo{
+    width: 134px;
+    height: 120px;
+    position: absolute;
+    left: 66px;
+    background: url("./cat-pedigree/positioning.png");
+}
+.school a{
+    width: 144px;
+    height: 53px;
+    position: absolute;
+    left: 60px;
+    top: 165px;
+    font-size: 36px;
+}
+.contact{
+    width: 1600px;
+    height: 357px;
+    background: url("./cat-pedigree/cat-9.png");
+    position: absolute;
+    top: 5148px;
+}
+.contact a{
+    width: 605px;
+    height: 116px;
+    position: absolute;
+    top: 80px;
+    left: 815px;
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 40px;
+}
+.linked{
+    width: 196px;
+    height: 62px;
+    position: absolute;
+    top: 249px;
+    left: 1243px;
+    border-color: yellow;
+    font-size: 28px;
+    background-color: #454134;
+}
+.ties{
+    width: 1600px;
+    height: 756px;
+    position: absolute;
+    top: 5505px;
+    background-color: white;
+}
+.cat_head{
+    width: 94px;
+    height: 87px;
+    position: absolute;
+    top: 60px;
+    left: 757px;
+    background: url("./cat-pedigree/cat.png");
+}
+.ties a{
+    width: 470px;
+    height: 70px;
+    position: absolute;
+    top: 160px;
+    left: 570px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.cat_home{
+    width: 830px;
+    height: 588px;
+    position: absolute;
+    top: 190px;
+    left: 138px;
+    background: url("./cat-pedigree/home.png");
+}
+.relationship{
+    width: 624px;
+    height: 390px;
+    position: absolute;
+    left: 815px;
+    top: 230px;
+    background-color: #CCCCCC;
+    font-size: 30px;
+    line-height: 50px;
+    text-indent: 2em;
+}
+.search{
+    width: 1600px;
+    height: 248px;
+    position: absolute;
+    top: 6250px;
+    background: url("./cat-pedigree/cat-10.png");
+}
+.look{
+    width: 463px;
+    height: 66px;
+    position: absolute;
+    top: 91px;
+    left: 168px;
+    font-size: 30px;
+}
+.look_for{
+    width: 163px;
+    height: 66px;
+    position: absolute;
+    top: 91px;
+    left: 655px;
+    font-size: 30px;
+    color: green;
+    background-color: #c3dbc5;
+    border-color: green;
+}

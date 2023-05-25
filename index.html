@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="CH-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cat-pedigree.css">
+</head>
+<body>
+    <div class="background">
+        <div class="head">
+            <div class="first-head"></div>
+            <div class="title"><a>猫谱</a></div>
+            <button class="home">首页</button>
+            <button class="adopt">领养</button>
+            <button class="volunteer">志愿者</button>
+            <button class="personal">关于我们</button>
+            <button type="button" class="check"><a>登记</a></button>
+            <div class="cat">
+                <div class="publicize_first">通过生物信息特征识别</div>
+                <div class="publicize_second">帮助您寻找合适的伙伴</div>
+                <button type="button" class="understand" onclick="understand()"><a>了解我们</a></button>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service_first">our services</div>
+            <div class="service_second">我们的服务</div>
+            <div class="service_third">用心呵护，让您安心舒心放心</div>
+            <button type="button" class="app"><a>APP功能</a></button>
+            <div class="milk_tea">
+                <div class="milk_tea_head">主题奶茶店</div>
+                <div class="milk_tea_information">将当下年轻人喜爱的奶茶与撸宠相结合，打造有机的组合套餐销售模式。</div>
+            </div>
+            <div class="milk_tea_logo"></div>
+            <div class="mall">
+                <div class="mall_head">猫咪商城</div>
+                <div class="mall_information">提供购物渠道、线上咨询专业人士客服，增加线上问诊功能，提供权威专业解答。
+                    </div>
+            </div>
+            <div class="mall_logo"></div>
+            <div class="community">
+                <div class="community_head">猫咪社区</div>
+                <div class="community_information">提高流浪猫救助参与度，社区内有日常分享，知识普及，交流天地等板块。</div>
+            </div>
+            <div class="community_logo"></div>
+            <div class="person">
+                <div class="person_head">个人中心</div>
+                <div class="person_information">有积分机制，可在猫咪商城中用于购物。设有荣誉称号，增加成就感。</div>
+            </div>
+            <div class="person_logo"></div>
+            <div class="census_register">
+                <div class="census_register_head">建立户籍</div>
+                <div class="census_register_information">具有“猫脸识别”功能，通过扫描展现猫咪户籍等相关信息。</div>
+            </div>
+            <div class="census_register_logo"></div>
+        </div>
+        <div class="adopt_cat">
+            <div class="adopt_head">
+                <a>领养猫咪</a>
+                <div class="middle_cat"></div>
+            </div>
+            <div class="domicile">
+                <div class="adopt_first">每个猫咪都有自己的专属户籍</div>
+                <div class="adopt_second">Each  cat  has  its  own  special  household  registration</div>
+                <div class="adopt_third">在这里，你会找到适合自己的伙伴。</div>
+                <div class="adopt_forth">You’ll  find  the  right  partner  here</div>
+                <button type="button" class="more">更多
+                    <div class="radius">></div>
+                </button>
+            </div>
+            <div class="information">
+                <div class="cat_first"></div>
+                <div class="first_information">
+                    姓名：小白<br>
+                    性别：公<br>
+                    年龄：三个月
+                </div>
+                <div class="cat_second"></div>
+                <div class="second_information">
+                    姓名：咖啡<br>
+                    性别：母<br>
+                    年龄：四个月
+                </div>
+                <div class="cat_third"></div>
+                <div class="third_information">
+                    姓名：大橘<br>
+                    性别：公<br>
+                    年龄：八个月
+                </div>
+            </div>
+        </div>
+        <div class="alone">
+            <a>我们的服务是独一无二的</a>
+            <div class="cat_foot"></div>
+        </div>
+        <div class="guarantee">
+            <div class="guarantee_first"></div>
+            <div class="guarantee_first_head">——&nbsp;&nbsp;我们的保障&nbsp;&nbsp;——</div>
+            <div class="guarantee_first_introduce">给您最舒心安全的保障</div>
+            <div class="presentation_first">
+                <div class="cog"></div>
+                <a class="technology">先进技术</a>
+                <a class="technology_information">采用先进的猫脸识别技术，提供最完善的信息</a>
+            </div>
+            <div class="presentation_second">
+                <div class="people"></div>
+                <a class="group">专业团队</a>
+                <a class="group_information">拥有多位经验丰富的医生团队在线咨询</a>
+            </div>
+            <div class="presentation_third">
+                <div class="car"></div>
+                <a class="use">优质用品</a>
+                <a class="use_information">涉及囊括了猫咪食品、医疗保健品、洗护用品、猫咪玩具等</a>
+            </div>
+            <div class="guarantee_second"></div>
+            <div class="guarantee_second_head">——&nbsp;&nbsp;猫咪咨询&nbsp;&nbsp;——</div>
+            <div class="guarantee_second_introduce">从分享你我的养猫心情到爱猫人之间的经验交流</div>
+            <div class="consultation_first"></div>
+            <div class="sterilization">
+                <a class="sterilization_information">猫咪绝育的注意事项？</a>
+                <div class="detailed">
+                    <h>1、不要随意翻动猫咪的身体；<br>
+                        2、麻醉苏醒期静静等待；<br>
+                        3、不能给猫咪舔伤口......</h>
+                </div>
+            </div>
+            <div class="ordinal_one">01</div>
+            <div class="consultation_second"></div>
+            <div class="sickness">
+                <a class="sickness_information">猫咪的皮肤病有哪些？</a>
+                <div class="dermatosis">
+                    <h>细菌性感染、寄生虫类型、代谢性皮肤病、皮肤过敏性、猫藓、皮肤肿瘤、猫的嗜酸性肉芽肿......</h>
+                </div>
+            </div>
+            <div class="ordinal_two">02</div>
+            <div class="guarantee_third"></div>
+            <div class="guarantee_third_head">——&nbsp;&nbsp;相关合作&nbsp;&nbsp;——</div>
+            <div class="guarantee_third_introduce">与多个权威机构合作，使用户更加放心</div>
+            <div class="hospital">
+                <div class="hospital_logo"></div>
+                <a>宠物医院</a>
+            </div>
+            <div class="organization">
+                <div class="organization_logo"></div>
+                <a>救助组织</a>
+            </div>
+            <div class="school">
+                <div class="school_logo"></div>
+                <a>学校机构</a>
+            </div>
+        </div>
+        <div class="contact">
+            <a> 从分享你我的养猫心情到爱猫人之间的经验交流，从网上购物到
+                在线医疗，生活中涉及的方方面面，都在不断努力将它们做到最好。
+                在这里，每一个热爱猫咪的人，不但能找到他们自己想要的，而且能
+                得到比他们想要的更多。
+            </a>
+            <button type="button" class="linked" style="color:white">联系我们</button>
+        </div>
+        <div class="ties" id="ties">
+            <div class="cat_head"></div>
+            <a>——&nbsp;&nbsp;关于我们&nbsp;&nbsp;——</a>
+            <div class="cat_home"></div>
+            <div class="relationship">猫谱是一款关于生物信息特征识别的一
+                款宠物救助APP，本产品以公益与救助为主，
+                以社区与商城功能为辅;同时利用宠物面部识
+                别技术以及鼻纹识别技术和大数据云储存技
+                术，有利于丢失猫咪的找回。采用O2O营销
+                模式，线上营销与线下实体相结合的方式。
+                完成猫咪的信息化建设，举办公益活动，成
+                立公益团队，成立猫粮品牌。</div>
+        </div>
+        <div class="search">
+            <input class="look"></input>
+            <button type="button" class="look_for">搜索</button>
+        </div>
+    </div>    
+</body>
+    <script src="./js.js"></script>
+</html>
